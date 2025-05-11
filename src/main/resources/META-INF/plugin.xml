@@ -48,8 +48,15 @@
     <action
             id="com.mituuz.fuzzier.FuzzyGrepCaseInsensitive"
             class="com.mituuz.fuzzier.FuzzyGrepCaseInsensitive"
-            text="Fuzzy Grep (Case Insensitive)"
+            text="Fuzzy Grep (Case Insensitive without Regex)"
             description="Search text with case insensitivity">
+      <override-text place="MainMenu" text="Fuzzy Grep (Case Insensitive)"/>
+    </action>
+    <action
+            id="com.mituuz.fuzzier.FuzzyGrepCaseInsensitiveWithRegex"
+            class="com.mituuz.fuzzier.FuzzyGrepCaseInsensitiveWithRegex"
+            text="Fuzzy Grep (Case Insensitive with regex on POSIX-like system)"
+            description="Search text with case insensitivity and with regex on POSIX-like system">
       <override-text place="MainMenu" text="Fuzzy Grep (Case Insensitive)"/>
     </action>
     <action
